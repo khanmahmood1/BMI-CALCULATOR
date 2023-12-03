@@ -149,7 +149,7 @@ label2.place(x=280,y=430)
 label3 = Label(root,font="arial 10 bold", bg="lightblue")
 label3.place(x=200,y=500)
 
-
+# code 
 
 
 root.mainloop()
