@@ -65,12 +65,12 @@ Label(root,image=box).place(x=20, y=100)
 Label(root,image=box).place(x=240,y=100)
 
 
-#sacle
+#scale
 scale=PhotoImage(file="png images/scale.png")
 Label(root,image=scale,bg="lightblue").place(x=20, y=310)
 
 
-#########Slider1############
+#########Slider1##############
 current_value = tk.DoubleVar()
 
 def get_current_value():
@@ -149,7 +149,17 @@ label2.place(x=280,y=430)
 label3 = Label(root,font="arial 10 bold", bg="lightblue")
 label3.place(x=200,y=500)
 
-# code 
+# code is almost compelted
 
 
 root.mainloop()
+###mainloop is used in tkinter module, there are some job of mainloop which is given below:-
+
+# Initializes the event loop for GUI applications.
+# Handles user events, ensuring responsiveness.
+# Runs continuously until the main window is closed.
+# Invokes callbacks in response to user actions.
+# Essential for creating interactive Tkinter interfaces.
+
+######################################################################################
+AUTHOR- KHAN MAHMOODURRAHMAN
